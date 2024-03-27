@@ -1,0 +1,49 @@
+f2py     -c DataTypes.f90 CAF__LawOPT.f90 -m CAF__LawOPT
+f2py     -c DataTypes.f90 CALR_LawOPT.f90 -m CALR_LawOPT
+f2py     -c DataTypes.f90 CCMR_LawOPT.f90 -m CCMR_LawOPT
+f2py     -c DataTypes.f90 CL_R_LawOPT.f90 -m CL_R_LawOPT
+f2py     -c DataTypes.f90 H83gaLawOPT.f90 -m H83gaLawOPT
+f2py     -c DataTypes.f90 SPLINE1DArr.f90 J13__LawOPT.f90 -m J13__LawOPT
+f2py     -c DataTypes.f90 Leitherer02.f90 -m Leitherer02
+f2py     -c DataTypes.f90 O_Donnell94.f90 -m O_Donnell94
+f2py     -c DataTypes.f90 SPLINE1DArr.f90 S79__LawOPT.f90 -m S79__LawOPT
+
+f2py3.8  -c DataTypes.f90 CAF__LawOPT.f90 -m CAF__LawOPT
+f2py3.8  -c DataTypes.f90 CALR_LawOPT.f90 -m CALR_LawOPT
+f2py3.8  -c DataTypes.f90 CCMR_LawOPT.f90 -m CCMR_LawOPT
+f2py3.8  -c DataTypes.f90 CL_R_LawOPT.f90 -m CL_R_LawOPT
+f2py3.8  -c DataTypes.f90 H83gaLawOPT.f90 -m H83gaLawOPT
+f2py3.8  -c DataTypes.f90 SPLINE1DArr.f90 J13__LawOPT.f90 -m J13__LawOPT
+f2py3.8  -c DataTypes.f90 Leitherer02.f90 -m Leitherer02
+f2py3.8  -c DataTypes.f90 O_Donnell94.f90 -m O_Donnell94
+f2py3.8  -c DataTypes.f90 SPLINE1DArr.f90 S79__LawOPT.f90 -m S79__LawOPT
+
+f2py3.9  -c DataTypes.f90 CAF__LawOPT.f90 -m CAF__LawOPT
+f2py3.9  -c DataTypes.f90 CALR_LawOPT.f90 -m CALR_LawOPT
+f2py3.9  -c DataTypes.f90 CCMR_LawOPT.f90 -m CCMR_LawOPT
+f2py3.9  -c DataTypes.f90 CL_R_LawOPT.f90 -m CL_R_LawOPT
+f2py3.9  -c DataTypes.f90 H83gaLawOPT.f90 -m H83gaLawOPT
+f2py3.9  -c DataTypes.f90 SPLINE1DArr.f90 J13__LawOPT.f90 -m J13__LawOPT
+f2py3.9  -c DataTypes.f90 Leitherer02.f90 -m Leitherer02
+f2py3.9  -c DataTypes.f90 O_Donnell94.f90 -m O_Donnell94
+f2py3.9  -c DataTypes.f90 SPLINE1DArr.f90 S79__LawOPT.f90 -m S79__LawOPT
+
+f2py3.10 -c DataTypes.f90 CAF__LawOPT.f90 -m CAF__LawOPT
+f2py3.10 -c DataTypes.f90 CALR_LawOPT.f90 -m CALR_LawOPT
+f2py3.10 -c DataTypes.f90 CCMR_LawOPT.f90 -m CCMR_LawOPT
+f2py3.10 -c DataTypes.f90 CL_R_LawOPT.f90 -m CL_R_LawOPT
+f2py3.10 -c DataTypes.f90 H83gaLawOPT.f90 -m H83gaLawOPT
+f2py3.10 -c DataTypes.f90 SPLINE1DArr.f90 J13__LawOPT.f90 -m J13__LawOPT
+f2py3.10 -c DataTypes.f90 Leitherer02.f90 -m Leitherer02
+f2py3.10 -c DataTypes.f90 O_Donnell94.f90 -m O_Donnell94
+f2py3.10 -c DataTypes.f90 SPLINE1DArr.f90 S79__LawOPT.f90 -m S79__LawOPT
+
+f2py3.11 -c DataTypes.f90 CAF__LawOPT.f90 -m CAF__LawOPT
+f2py3.11 -c DataTypes.f90 CALR_LawOPT.f90 -m CALR_LawOPT
+f2py3.11 -c DataTypes.f90 CCMR_LawOPT.f90 -m CCMR_LawOPT
+f2py3.11 -c DataTypes.f90 CL_R_LawOPT.f90 -m CL_R_LawOPT
+f2py3.11 -c DataTypes.f90 H83gaLawOPT.f90 -m H83gaLawOPT
+f2py3.11 -c DataTypes.f90 SPLINE1DArr.f90 J13__LawOPT.f90 -m J13__LawOPT
+f2py3.11 -c DataTypes.f90 Leitherer02.f90 -m Leitherer02
+f2py3.11 -c DataTypes.f90 O_Donnell94.f90 -m O_Donnell94
+f2py3.11 -c DataTypes.f90 SPLINE1DArr.f90 S79__LawOPT.f90 -m S79__LawOPT
