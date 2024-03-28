@@ -1,17 +1,33 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jan 30 12:07:21 2021
+
+RESUME : Python scripts for dimmerattenuation class
+    
+Version: v01
+
+@author: Jean Gomes Copyright (c)
+
+@email: antineutrinomuon@gmail.com
+
+Written: Jean Michel Gomes © Copyright
+"""
+
 import numpy as np
 
 import matplotlib.pyplot as plt
 from   pylab import *
 
-from CAF__LawOPT import caf__lawopt as caf
-from CALR_LawOPT import calr_lawopt as cal
-from CCMR_LawOPT import ccmr_lawopt as ccm
-from CL_R_LawOPT import cl_r_lawopt as clr
-from H83gaLawOPT import h83galawopt as h83
-from J13__LawOPT import j13__lawopt as j13
-from Leitherer02 import leitherer02 as l02
-from O_Donnell94 import o_donnell94 as o94
-from S79__LawOPT import s79__lawopt as s79
+from dimmerattenuation.flib import caf__lawopt as caf
+from dimmerattenuation.flib import calr_lawopt as cal
+from dimmerattenuation.flib import ccmr_lawopt as ccm
+from dimmerattenuation.flib import cl_r_lawopt as clr
+from dimmerattenuation.flib import h83galawopt as h83
+from dimmerattenuation.flib import j13__lawopt as j13
+from dimmerattenuation.flib import leitherer02 as l02
+from dimmerattenuation.flib import o_donnell94 as o94
+from dimmerattenuation.flib import s79__lawopt as s79
 
 class attenuation(object):
     def __init__( self ):
@@ -50,6 +66,19 @@ class attenuation(object):
         self.l = l
         self.f = f
         self.f_ext = np.array(self.f, dtype=float) * 10.0**( -0.4 * A_V * self.q( self.l,R_V,law ) )
+        
+        return self.f_ext
+
+    def correctextinction( self, l, f, A_V=1.0, R_V=3.1, law='ccm' ):
+        # Attenuation paramaters
+        self.A_V = A_V
+        self.R_V = R_V
+        self.law = law
+        
+        # SEDs
+        self.l = l
+        self.f = f
+        self.f_ext = np.array(self.f, dtype=float) * 10.0**( +0.4 * A_V * self.q( self.l,R_V,law ) )
         
         return self.f_ext 
 

@@ -1,5 +1,5 @@
 # DimmerAttenuation
-## Attenuation laws legacy software written in Fortran 2003+
+11;rgb:0000/0000/0000## Attenuation laws legacy software written in Fortran 2003+
 
 **Author:** Jean Gomes
 
@@ -37,11 +37,50 @@ DimmerAttenuation is a flexible Python library tailored for utilizing legacy
 Fortran 2003+ routines. These routines enable the correction of observed
 spectra or emission lines through attenuation laws. Additionally,
 DimmerAttenuation facilitates the application of attenuation to hypothetical
-spectra, such as models.
+spectra, such as models. The code assumes a uniform dust screen model for the
+dust absoprtion.
 
 ### Key Features:
 
+Apply attenuation or correct attenuation of spectra or lines.
+
 ### Getting Started:
+
+--------------------------------------------------------------------<br>
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)<br>
+
+<hr>
+
+#### <b>INSTALLATION</b>
+
+You can easily install <a href=https://pypi.org/project/DimmerAttenuation/>DimmerAttenuation</a> by using pip - <a href='https://pypi.org/'>PyPI - The Python Package Index</a>:
+<pre>
+<code>
+pip install DimmerAttenuation
+</code>
+</pre>
+or by using a generated conda repository <a href='https://anaconda.org/neutrinomuon/DimmerAttenuation'>https://anaconda.org/neutrinomuon/DimmerAttenuation</a>:
+
+[![badgetanaconda](https://anaconda.org/neutrinomuon/DimmerAttenuation/badges/version.svg)](https://anaconda.org/neutrinomuon/DimmerAttenuation/badges/version.svg)
+[![badgetreleasedate](https://anaconda.org/neutrinomuon/DimmerAttenuation/badges/latest_release_date.svg)](https://anaconda.org/neutrinomuon/DimmerAttenuation/badges/latest_release_date.svg)
+[![badgetplatforms](https://anaconda.org/neutrinomuon/DimmerAttenuation/badges/platforms.svg
+)](https://anaconda.org/neutrinomuon/DimmerAttenuation/badges/platforms.svg)
+<pre>
+<code>
+conda install -c neutrinomuon DimmerAttenuation
+</code>
+</pre>
+OBS.: Linux, OS-X ad Windows pre-compilations available in conda.
+
+You can also clone the repository and install by yourself in your machine:
+<pre>
+<code>
+git clone https://github.com/neutrinomuon/DimmerAttenuation
+python setup.py install
+</code>
+</pre>
+
+<hr>
 
 ## Contributor
 
