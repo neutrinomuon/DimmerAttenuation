@@ -22,7 +22,7 @@ DimmerAttenuation is a software program designed for absorption (ATTENUATION) in
 
 ## RESUME
 <div align="left">
-<img src="https://raw.githubusercontent.com/neutrinomuon/DustyGlow/main/figures/DustyGlow.png?token=GHSAT0AAAAAACHZOHXMVURAWCDWHZD7P2W2ZITEXTQ" width=120>
+<img src="https://github.com/neutrinomuon/DimmerAttenuation/blob/main/figures/DimmerAttenuation.png" width="120">
 </div>
 
 <div align="center">
