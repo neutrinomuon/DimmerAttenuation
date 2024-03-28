@@ -26,9 +26,9 @@ DimmerAttenuation is a software program designed for absorption (ATTENUATION) in
 </div>
 
 <div align="center">
-<img src="https://github.com/neutrinomuon/PyIntegral/blob/main/figures/Definite_Integral.png?raw=true" width="100%">
+<img src="https://github.com/neutrinomuon/DimmerAttenuation/blob/main/figures/Reddening_Laws.png?raw=true" width="100%">
 </div>
-Reddening_Laws.png
+
 
 ### Overview:
 
