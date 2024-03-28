@@ -1,4 +1,5 @@
-# DimmerAttenuation - Attenuation laws legacy software written in Fortran 2003+
+# DimmerAttenuation
+## Attenuation laws legacy software written in Fortran 2003+
 
 **Author:** Jean Gomes
 
