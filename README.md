@@ -1,5 +1,5 @@
 # DimmerAttenuation
-11;rgb:0000/0000/0000## Attenuation laws legacy software written in Fortran 2003+
+## Attenuation laws legacy software written in Fortran 2003+
 
 **Author:** Jean Gomes
 
@@ -93,7 +93,7 @@ python setup.py install
 
 <tr><td>03/27/2024</td>
 
-<td>J.G. submitted the routines to githu platform</td></tr>
+<td>J.G. submitted the routines to GitHub platform</td></tr>
 
 </table>
 
