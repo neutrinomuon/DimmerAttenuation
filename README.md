@@ -84,6 +84,11 @@ python setup.py install
 
 ### STRUCTURE
 
+<pre>
+<code>
+</pre>
+</code>
+
 <hr>
 
 ### Contributor
