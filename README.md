@@ -82,7 +82,11 @@ python setup.py install
 
 <hr>
 
-## Contributor
+### STRUCTURE
+
+<hr>
+
+### Contributor
 
 - Jean Gomes (Software Developer, Advisor): Jean is primarily responsible for
   the software development and implementation of DimmerAttenuation.
