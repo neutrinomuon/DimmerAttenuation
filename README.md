@@ -82,12 +82,11 @@ python setup.py install
 
 <hr>
 
-### STRUCTURE
+#### <b>STRUCTURE</b>
 
 <pre>
-<code>
+#################################################
 </pre>
-</code>
 
 <hr>
 
