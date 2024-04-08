@@ -94,9 +94,9 @@ workspace
 │   ├── objects
 │   │   ├── info
 │   │   └── pack
-│   │       ├── pack-80fe4bee923aa7919e5ca75370b9d53e7369ffa4.pack
-│   │       ├── pack-80fe4bee923aa7919e5ca75370b9d53e7369ffa4.rev
-│   │       └── pack-80fe4bee923aa7919e5ca75370b9d53e7369ffa4.idx
+│   │       ├── pack-2948cd2dc148d43ec66c32e5f915f18a91249ec8.pack
+│   │       ├── pack-2948cd2dc148d43ec66c32e5f915f18a91249ec8.rev
+│   │       └── pack-2948cd2dc148d43ec66c32e5f915f18a91249ec8.idx
 │   ├── hooks
 │   │   ├── pre-receive.sample
 │   │   ├── fsmonitor-watchman.sample
