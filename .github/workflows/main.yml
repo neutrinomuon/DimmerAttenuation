@@ -23,7 +23,7 @@ jobs:
           echo "REPOSITORY=${GITHUB_REPOSITORY}" >> $GITHUB_ENV
 
       - name: Update README.md for project
-        uses: neutrinomuon/UpdateREADME@v0.0.2
+        uses: neutrinomuon/UpdateREADME@v0.0.3
         with:
           TOKEN: ${{ env.TOKEN }}
           BRANCH: ${{ env.BRANCH }}
