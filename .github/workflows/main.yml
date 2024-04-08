@@ -1,9 +1,9 @@
 name: Update README.md from repository
 
-on:
+on: 
   push:
     paths-ignore:
-      - '.github/workflows/update-readme.yml'
+        - '.github/workflows/update-readme.yml'
 
 jobs:
   update-readme:
@@ -23,8 +23,8 @@ jobs:
           echo "REPOSITORY=${GITHUB_REPOSITORY}" >> $GITHUB_ENV
           echo "LENGTH_LIMIT=100000" >> $GITHUB_ENV
 
-      - name: Use custom action in update readme
-        uses: ./
+      - name: Update README.md for project
+        uses: neutrinomuon/UpdateREADME@v0.0.3
         with:
           TOKEN: ${{ env.TOKEN }}
           BRANCH: ${{ env.BRANCH }}
