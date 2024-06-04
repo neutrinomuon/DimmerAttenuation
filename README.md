@@ -30,6 +30,8 @@ DimmerAttenuation is a software program designed for absorption (ATTENUATION) in
 <img src="https://github.com/neutrinomuon/DimmerAttenuation/blob/main/figures/Reddening_Laws.png?raw=true" width="100%">
 </div>
 
+DOI: 10.5281/zenodo.11472738
+
 
 ### Overview:
 
