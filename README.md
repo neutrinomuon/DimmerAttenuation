@@ -7,6 +7,7 @@
 - Jean Gomes: [antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com)
 
 last stable version: 0.0.1
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11472738.svg)](https://doi.org/10.5281/zenodo.11472738)
 
 <hr>
