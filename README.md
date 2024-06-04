@@ -7,6 +7,7 @@
 - Jean Gomes: [antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com)
 
 last stable version: 0.0.1
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11472738.svg)](https://doi.org/10.5281/zenodo.11472738)
 
 <hr>
 
@@ -29,9 +30,6 @@ DimmerAttenuation is a software program designed for absorption (ATTENUATION) in
 <div align="center">
 <img src="https://github.com/neutrinomuon/DimmerAttenuation/blob/main/figures/Reddening_Laws.png?raw=true" width="100%">
 </div>
-
-DOI: 10.5281/zenodo.11472738
-
 
 ### Overview:
 
